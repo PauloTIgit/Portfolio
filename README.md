@@ -25,4 +25,4 @@
 <h5>Conograma de conclução do Portfólio está para a data 01/08/2022.</h5>
 
 
-<a href="https://paulodevelop.com.br/"  target="_blank"><p>Click para ver o Projeto</p></a>
+<a href="https://paulodevelop.com.br/"  target="_blank" >Click para ver o Projeto</a>
