@@ -5,7 +5,6 @@ Modelo de Portfolio, usando HTML, CSS e JavaScript (Jquery).
 Contrução do Site:
 
 2 div no começo
-<br>
     1° div = Serve para scroll; "Para quando atigir o serto limite ela apareça e possa ser clicado e assim  voltar ao inicio."
 
     2° div = Tem a parte de Navegação; "Links, Logo e uma barra de menu para tela mobile."
