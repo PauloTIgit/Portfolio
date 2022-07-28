@@ -1,42 +1,20 @@
-# Portflio
-Modelo de Portfolio, usando HTML, CSS e JavaScript (Jquery).
+# Portflio | Pessoal
+<h3>Modelo de Portfolio, usando HTML, CSS, JavaScript e PHP.</h3>
+<br>
+<h2>Contrução do Site:</h2>
+<p>Para a contrução do Portfóli as tags mais usadas foram as divs e sections e um footer.</p>
+<br>
+<h3>Foi usada 1 div</h3>
+    <p>Esta <strong>div</strong> e usada como header</p>
+<br>
+<h3>Foi usada 4 section</h3>
+<ul>
+    <li><strong>1° section =</strong> Sessão inicio;</li>
+    <li><strong>2° section =</strong> Sessão Sobre;</li>
+    <li><strong>3° section =</strong> Sessão Seviços</li>
+    <li><strong>4° section =</strong> Sessão Contato;</li>
+</ul>
+<h3>Por ultimo foi usado um footer</h3>
+<p>Esta parte eu criei para colocar os direitos reservados</p>
+<h5>Conograma de conclução do Portfólio está para a data 01/08/2022.</h5>
 
-
-Contrução do Site:
-
-2 div no começo
-    1° div = Serve para scroll; "Para quando atigir o serto limite ela apareça e possa ser clicado e assim  voltar ao inicio."
-
-    2° div = Tem a parte de Navegação; "Links, Logo e uma barra de menu para tela mobile."
-
-6 section
-    1° section = Sessão inicio;
-    2° section = Sessão Sobre;
-    3° section = Sessão Seviços
-    4° section = Sessão Especialidade;
-    5° section = Sessão Equipe;
-    6° section = Sessão Contato;
-
-1 footer
-
-Atualizações e conograma de conclução.
-
-Hoje dia 06/07/2022
-    Foi feita a desativação as section Especialidade e Equipe, eu particularmente não vou precisar atualizei as informações do Contato e das outras section.
-
-Em Espera:
-
-Procesando;
- 
- Fazer com que o formulario de contato mende uma email com as informações 
-
-Concluido; 
- Desenvlver layout para sectio inicio;
- Desenvlver layout para sectio Sobre;
- Desenvlver layout para sectio Seviços;
- Desenvlver layout para sectio Estabilidade;
- Desenvlver layout para sectio Equipe;
- Desenvlver layout para sectio Contato;
- Botão de scroll;
- Desenvolver scroll pro links;
- 
