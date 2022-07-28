@@ -14,6 +14,7 @@
     <li><strong>3° section =</strong> Sessão Seviços</li>
     <li><strong>4° section =</strong> Sessão Contato;</li>
 </ul>
+<br>
 <h3>Por ultimo foi usado um footer</h3>
 <li>Esta parte eu criei para colocar os direitos reservados</li>
 <br>
