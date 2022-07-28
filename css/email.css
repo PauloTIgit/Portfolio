@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box_sucesso {
+    margin: auto;
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    border-radius: 50%;
+    background: rgb(10, 211, 10);
+}
+
+.sucesso {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bnt {
+    margin: auto;
+    padding: 1rem 1rem;
+    width: 4rem;
+    height: 2rem;
+    background: rgb(50, 11, 158);
+    border-radius: 50%;
+}
+
+a {
+    color: #ffffffff;
+    font-size: 1.5rem;
+    text-align: center;
+}
