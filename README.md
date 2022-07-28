@@ -20,7 +20,7 @@
 <h3>Por ultimo foi usado um footer</h3>
 <ul>
     <li>Esta parte eu criei para colocar os direitos reservados</li>
-<ul>
+</ul>
 <br>
 <h5>Conograma de conclução do Portfólio está para a data 01/08/2022.</h5>
 
