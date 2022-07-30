@@ -1,32 +1,116 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Nunito", sans-serif;
 }
 
-.box_sucesso {
+body {
+    background: rgba(0, 0, 0, 0.815);
+    padding: 6rem 0;
+}
+
+.container-modal {
+    padding: 1rem;
+}
+
+.modal {
     margin: auto;
-    width: 70%;
-    height: 70%;
+    max-width: 24rem;
+    height: 20rem;
+    background: rgba(0, 0, 0, 0.116);
+    border: solid 2px rgba(95, 94, 94, 0.075);
+    box-shadow: 1px 1px 12px rgba(241, 240, 237, 0.164);
+    border-radius: 5rem;
+    padding: 4rem 0 0 0;
+}
+
+.text {
     text-align: center;
-    border-radius: 50%;
-    background: rgb(10, 211, 10);
+    color: white;
 }
 
-.sucesso {
-    font-family: 'Ubuntu', sans-serif;
+span {
+    color: rgb(0, 255, 0);
 }
 
-.bnt {
-    margin: auto;
-    padding: 1rem 1rem;
-    width: 4rem;
-    height: 2rem;
-    background: rgb(50, 11, 158);
-    border-radius: 50%;
+.info {
+    color: whitesmoke;
+    padding: 3rem 3rem;
 }
 
-a {
-    color: #ffffffff;
-    font-size: 1.5rem;
-    text-align: center;
+.contaoner-link {
+    width: 2rem;
+    padding: 3px;
+}
+
+
+/* Estilos do botão */
+
+.neon {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    color: #949393c7;
+    padding: 10px 25px;
+    border: #cc00ffc7 4px solid;
+    border-radius: 16px;
+    box-shadow: inset 0 0 30px 0 #cc00ffc7, 0 0 32px 0 #cc00ffc7;
+    text-shadow: 0 0 8px hsl(0 0% 100% / 0.3), 0 0 32px currentColor;
+    position: relative;
+    left: 8.5rem;
+}
+
+
+/* Reflexo do botão */
+
+.neon::before {
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: -3rem;
+    background: #cc00ffc7;
+    width: 14rem;
+    height: 14rem;
+    transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
+    filter: blur(64px);
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+
+/* Estilos para hover */
+
+.neon::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 128px 32px #cc00ffc7;
+    opacity: 0;
+    background-color: #cc00ffc7;
+    z-index: -1;
+    transition: opacity 100ms linear;
+}
+
+.neon:hover::before,
+.neon:hover::after {
+    opacity: 1;
+}
+
+.neon:hover {
+    color: #ffffff;
+    text-shadow: none;
+}
+
+@media (max-width: 400px) {
+    * {
+        font-size: .6rem;
+        text-align: center;
+    }
+    .neon {
+        left: 7.2rem;
+    }
 }

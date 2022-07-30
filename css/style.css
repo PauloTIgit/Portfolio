@@ -626,8 +626,6 @@
     * Para telas Mobile 
     */
     
-    @media (max-width:320px) {}
-    
     @media (max-width: 1300px) {
         .navbar .max-width {
             margin-left: 0;
@@ -743,7 +741,7 @@
         }
     }
     
-    @media (max-width: 499px) {
+    @media (max-width: 400px) {
         .home .home-content .text-1 {
             font-size: 20px;
         }
@@ -762,4 +760,8 @@
             height: 2.5rem;
             font-size: 0.8rem;
         }
+        .typing {
+            font-size: 1.5rem;
+        }
+        @media (max-width:300px) {}
     }

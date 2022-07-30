@@ -26,11 +26,6 @@ $(document).ready(function() {
         backSpeed: 60,
         loop: true
     });
-    //Botão do menu
-    $('.menu-btn').click(function() {
-        $('.navbar .menu').toggleClass("active");
-        $('.menu-btn i').toggleClass("active");
-    });
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
@@ -50,5 +45,24 @@ $(document).ready(function() {
                 nav: false
             }
         }
+    });
+
+    //Botão do menu
+    document.querySelector(".menu-btn").addEventListener('click', function() {
+        document.querySelector(".menu").classList.toggle("active");
+    });
+
+    //Evento para Link
+    document.querySelector(".link-menu1").addEventListener('click', function() {
+        document.querySelector(".menu").classList.toggle("active");
+    });
+    document.querySelector(".link-menu2").addEventListener('click', function() {
+        document.querySelector(".menu").classList.toggle("active");
+    });
+    document.querySelector(".link-menu3").addEventListener('click', function() {
+        document.querySelector(".menu").classList.toggle("active");
+    });
+    document.querySelector(".link-menu4").addEventListener('click', function() {
+        document.querySelector(".menu").classList.toggle("active");
     });
 });

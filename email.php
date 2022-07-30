@@ -5,7 +5,7 @@ $msg = $_POST['menssagem'];
 
 //$to = "suporte@paulodevelop.com.br";
 $to = "pauloferreiradevs@gmail.com";
-$subject = "Portfolio";
+$subject = "Portfolio ";
 
 $menssage ="
     <h2>Menssagem do Portfólio</h2>
@@ -19,11 +19,13 @@ $menssage ="
 
 $headers ="MIME-Version: 1.0" . "\r\n";
 $headers .="Content-type:text/html;charset=UTF-8" . "\r\n";
-
 $headers .='From: <pauloferreiradevs@gmail.com>' . "\r\n";
 
 mail($to, $subject, $menssage, $headers);
+
 ?>
+
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -37,14 +39,20 @@ mail($to, $subject, $menssage, $headers);
 </head>
 
 <body>
-    <div class="box_sucesso">
-        <h3 class="sucesso">Menssagem enviada com Sucesso</h3>
-    </div>
-    <br>
-    <br>
-    <div class="bnt">
-        <a href="./index.html">Voltar</a>
-    </div>
+        <div class="container-modal">
+            <div class="modal">
+                <h3 class="text">Email enviado com <span>Sucesso</span> !</h3>
+                <br>
+                <p class="text">Informações enviadas</p>
+                <div class="info">
+                <p>Obrigado pela mensagem entraremos em contato.</p>
+                </div>
+                <div class="contaoner-link">
+                    <a href="./index.html" class="neon">Voltar</a>
+                </div>
+            </div>
+        </div>
+
 </body>
 
 </html>
