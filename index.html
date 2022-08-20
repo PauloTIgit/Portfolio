@@ -10,6 +10,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.buymeacoffee.com/uploads/project_updates/2022/07/642fdc946d417ae305537c261a6db32f.jpg@1000w_0e.webp" />
     <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.buymeacoffee.com/uploads/project_updates/2022/07/642fdc946d417ae305537c261a6db32f.jpg@1000w_0e.webp" />
     <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.buymeacoffee.com/uploads/project_updates/2022/07/642fdc946d417ae305537c261a6db32f.jpg@1000w_0e.webp" />
+    <link rel="stylesheet" href="/fonts/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/fonts/css/font-awesome.css">
     <link rel="manifest" href="/site.webmanifest" />
     <title>Portfólio | Paulo</title>
 
@@ -109,7 +111,6 @@
             <h2 class="title">Contato</h2>
             <div class="contact-content">
                 <div class="column left">
-                    <div class="text">Fale Conosco</div>
                     <p>Entre e contado através do e-mail ou nós mande uma mensagem.</p>
 
                     <!--Contato da Esquerda-->
@@ -134,6 +135,63 @@
                                 <div class="head">Email</div>
                                 <div class="sub-title">pauloferreiradevs@gmail.com</div>
                             </div>
+                        </div>
+                    </div>
+                    <!--Links acesso rapido -->
+                    <style>
+                        .box-cont {
+                            background: rgb(120, 141, 211);
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            justify-content: space-around;
+                        }
+                        
+                        .link-cont i {
+                            width: 100%;
+                            height: 100%;
+                            background: rgba(4, 15, 63, 0.87);
+                            color: rgb(255, 255, 255);
+                            padding: 9px 9px 9px 9px;
+                            border-radius: 47%;
+                            animation: led 5s infinite;
+                        }
+                        
+                        @keyframes led {
+                            0% {
+                                -webkit-box-shadow: 0 0 10px #C586C0, 0 0 2px 2px #C586C0;
+                                box-shadow: 0 0 10px #C586C0, 0 0 2px 2px #C586C0;
+                            }
+                            40% {
+                                -webkit-box-shadow: 0 0 10px 3px #0ff, 0 0 2px 2px #0ff;
+                                box-shadow: 0 0 10px 3px #0ff, 0 0 2px 2px #0ff;
+                            }
+                            60% {
+                                -webkit-box-shadow: 0 0 10px 3px #0f0, 0 0 2px 2px #0f0;
+                                box-shadow: 0 0 10px 3px #0f0, 0 0 2px 2px #0f0;
+                            }
+                            80% {
+                                -webkit-box-shadow: 0 0 10px 3px #ffff01, 0 0 2px 2px #ffff01;
+                                box-shadow: 0 0 10px 3px #ffff01, 0 0 2px 2px #ffff01;
+                            }
+                            100% {
+                                -webkit-box-shadow: 0 0 10px 3px #C586C0, 0 0 2px 2px #C586C0;
+                                box-shadow: 0 0 10px 3px #C586C0, 0 0 2px 2px #C586C0;
+                            }
+                        }
+                        
+                        .box-cont {
+                            position: relative;
+                            margin: 10px;
+                            background-color: transparent;
+                        }
+                    </style>
+                    <div class="box-cont">
+                        <div class="cont">
+                            <a href="https://www.linkedin.com/in/paulo-ferreira-6a9569249/" target="_blank" class="link-cont"><i class="fa fa-2x fa-linkedin" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="cont">
+                            <a href="https://github.com/PauloTIgit" target="_blank" class="link-cont"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
