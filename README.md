@@ -1,6 +1,6 @@
 # Projeto: Portfólio
 
-## Projeto para vaga de emprego: Desenvolvedor Júnior
+## Projeto para vaga de emprego: Desenvolvedor Web
 <br>
 <p>O objetivo do desafio era reproduzir um site responsivo com um formulário para contato que enviasse um e-mail para mim com as informações do formulário</p>
 <br>
